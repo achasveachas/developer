@@ -5,6 +5,7 @@ if ActiveRecord::Migrator.needs_migration?
 end
 
 run ApplicationController
+use Newmodel17sController
 use Newmodel13sControllerController
 use NewmodelsControllerController
 use Newmodel10sControllerController
